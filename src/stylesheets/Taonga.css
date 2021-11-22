@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.UserHeading {
+  color: white;
+  background-color: #04067a;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  border: 5px;
+  padding: 60px;
+  background-color: #000c66;
+  padding-bottom: 30%;
+  height: 25%;
+}
+
+.Tag {
+  text-align: left;
+  color: rgb(15, 15, 179);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.DefaultPic {
+  border-radius: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+
+#setup {
+  text-align: center;
+  border: 2px solid rgb(15, 15, 179);
+  padding: 4px 1px;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  color: rgb(14, 14, 134);
+  margin-left: 34%;
+}
+
+#Update {
+  color: rgb(230, 221, 221);
+  background-color: rgb(15, 15, 109);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border: 3px solid rgb(15, 15, 109);
+  padding: 5px 15px;
+  border-radius: 36px;
+  display: inline-block;
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.Info {
+  width: 150px;
+  height: 20px;
+  margin-left: 20px;
+  text-align: left;
+  color: rgb(15, 15, 179);
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#AddAcount {
+  color: rgb(228, 224, 224);
+  background-color: rgb(15, 15, 109);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border: 3px solid rgb(15, 15, 109);
+  padding: 6px 8px;
+  border-radius: 36px;
+  margin-top: 35%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.Label {
+  color: rgb(15, 15, 109);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.Input {
+  color: rgb(15, 15, 179) !important;
+  font-weight: 600 !important;
+}
+
+#NameInput {
+  margin-bottom: 5%;
+}
+
+#AddAcount {
+  color: rgb(228, 224, 224);
+  background-color: rgb(15, 15, 109);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border: 3px solid rgb(15, 15, 109);
+  padding: 6px 8px;
+  border-radius: 36px;
+  margin-top: 25%;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+#SaveChanges {
+  color: rgb(228, 224, 224);
+  background-color: rgb(15, 15, 109);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border: 3px solid rgb(15, 15, 109);
+  padding: 6px 8px;
+  border-radius: 36px;
+  margin-top: 12%;
+  margin-left: 5%;
+  margin-right: 8%;
+}
+
+#PaymentsAcount {
+  color: rgb(228, 224, 224);
+  background-color: rgb(15, 15, 109);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  border: 3px solid rgb(15, 15, 109);
+  padding: 6px 8px;
+  border-radius: 36px;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 8%;
+}
+
+#SaveIcon .MuiSvgIcon-root {
+  color: rgb(228, 224, 224);
+  border: 3px solid rgb(15, 15, 109);
+  border-radius: 36px;
+  background-color: rgb(15, 15, 109);
+  margin-top: 700%;
+  text-align: right;
+}
+
+#AccountIcon .MuiSvgIcon-root {
+  color: rgb(228, 224, 224);
+  border: 3px solid rgb(15, 15, 109);
+  border-radius: 36px;
+  background-color: rgb(15, 15, 109);
+  margin-top: 1400%;
+  text-align: right;
+}
+
+#UpdateIcon .MuiSvgIcon-root {
+  color: rgb(228, 224, 224);
+  border: 3px solid rgb(15, 15, 109);
+  border-radius: 36px;
+  background-color: rgb(15, 15, 109);
+  margin-top: 600%;
+  text-align: right;
+}
+
+#CardIcon .MuiSvgIcon-root {
+  color: rgb(228, 224, 224);
+  border: 3px solid rgb(15, 15, 109);
+  border-radius: 36px;
+  background-color: rgb(15, 15, 109);
+  margin-top: 250%;
+  text-align: right;
+}
+
+.LowerContent {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: white;
+  text-align: left;
+  position: relative;
+  padding-top: 50px;
+  bottom: 30px;
+  box-shadow: 0 -40px 30px -20px rgba(33, 38, 104, 0.2);
+  font-family: "Manrope", sans-serif;
+  border: 5px;
+}
+
+.CardImage {
+  border-radius: 12px !important;
+  margin-top: 0.5%;
+}
+
+.PaymentsForm {
+  margin-top: 8%;
+}
+
+.InfoContainer {
+  padding: 2%;
+}

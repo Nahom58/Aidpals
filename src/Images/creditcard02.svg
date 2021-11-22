@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="883px" height="570px" viewBox="0 0 883 570" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chase</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="823" height="500"></rect>
+        <filter x="-7.9%" y="-7.0%" width="115.8%" height="128.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="15" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="40" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0705882353   0 0 0 0 0.105882353   0 0 0 0 0.470588235  0 0 0 0.6 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#4953CF" offset="0%"></stop>
+            <stop stop-color="#373FA3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="07_savings_settings" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Payments" transform="translate(-121.000000, -1279.000000)">
+            <g id="chase" transform="translate(151.000000, 1279.000000)">
+                <g id="Mask-group">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Rectangle-copy-copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#373FA3" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <ellipse id="Oval" stroke-opacity="0.270588235" stroke="#FFFFFF" mask="url(#mask-2)" cx="153.500015" cy="365.5" rx="226.500015" ry="226.5"></ellipse>
+                    <circle id="Oval" fill="url(#linearGradient-4)" mask="url(#mask-2)" cx="673.5" cy="131" r="196.5"></circle>
+                    <circle id="Oval" fill="url(#linearGradient-4)" mask="url(#mask-2)" cx="153.5" cy="365.5" r="196.5"></circle>
+                </g>
+                <text id="Chase" font-family="Helvetica" font-size="58" font-weight="normal" line-spacing="47" letter-spacing="1" fill="#FFFFFF">
+                    <tspan x="53.1953125" y="156">Capital One</tspan>
+                </text>
+                <text id="########2874" font-family="Helvetica" font-size="38" font-weight="normal" line-spacing="65" fill="#FFFFFF">
+                    <tspan x="53" y="281">########3956</tspan>
+                </text>
+                <path d="M763.171922,77.3592887 L758.218848,76.5330029 C757.858858,75.0612391 757.333969,73.6543728 756.650373,72.3422063 L759.821191,68.4107294 C760.495578,67.5798682 760.464944,66.3843875 759.753946,65.582489 L757.784022,63.3654667 C757.069958,62.5644056 755.885807,62.3949853 754.982567,62.9656327 L750.746737,65.6283592 C748.883678,64.3266832 746.773294,63.3654667 744.496731,62.8077087 L743.668046,57.8280711 C743.494163,56.7736615 742.581719,56 741.510624,56 L738.541982,56 C737.473063,56 736.557548,56.7736616 736.387515,57.8280711 L735.554311,62.8092711 C733.67211,63.270097 731.907376,64.01396 730.296883,64.993648 L726.268531,62.1187565 C725.400338,61.4984987 724.20787,61.5954859 723.450224,62.3515127 L721.352957,64.4502876 C720.596929,65.2079334 720.499943,66.4004011 721.121818,67.2685941 L724.003406,71.3046474 C723.032925,72.9029742 722.296709,74.6576635 721.835937,76.523122 L716.827953,77.3593394 C715.775168,77.5332285 715,78.4457294 715,79.51688 L715,82.4831781 C715,83.554217 715.775168,84.4668297 716.827959,84.6407143 L721.835944,85.4769287 C722.214349,87.0119748 722.763679,88.4782729 723.493814,89.8378161 L720.33745,93.7470821 C719.665351,94.5771632 719.693587,95.7734255 720.404582,96.5745983 L722.372999,98.7916765 C723.087117,99.5942441 724.271885,99.7605917 725.175234,99.1913972 L729.472115,96.492177 C731.290251,97.7357594 733.347119,98.6497698 735.554318,99.1913972 L736.387523,104.171872 C736.557611,105.226338 737.473071,106 738.541988,106 L741.51063,106 C742.581725,106 743.494169,105.226394 743.668055,104.171932 L744.498135,99.1914568 C746.356839,98.7368253 748.099198,98.0059085 749.695348,97.0430163 L753.891555,100.039953 C754.758188,100.662443 755.951544,100.564787 756.708412,99.8063592 L758.80652,97.7083114 C759.561653,96.9529507 759.66394,95.7611529 759.036821,94.8913989 L756.049317,90.7028315 C757.022588,89.0991507 757.76271,87.3413352 758.220579,85.4675589 L763.173597,84.6405504 C764.22946,84.4666687 765.001503,83.5541097 765.001503,82.4830172 L765.001503,79.5167176 C764.999938,78.4457294 764.227898,77.5332285 763.171922,77.3592887 L763.171922,77.3592887 Z M740.079235,90.3750191 C734.902666,90.3750191 730.704224,86.1757964 730.704224,81.0000095 C730.704224,75.8234415 734.902666,71.625 740.079235,71.625 C745.254911,71.625 749.454136,75.8234415 749.454136,81.0000095 C749.454136,86.1757964 745.254911,90.3750191 740.079235,90.3750191 L740.079235,90.3750191 Z" id="settings_1_" fill-opacity="0.749019608" fill="#FFFFFF"></path>
+                <text id="Savings" font-family="Helvetica" font-size="32" font-weight="normal" line-spacing="47" letter-spacing="1" fill="#FFFFFF" fill-opacity="0.8">
+                    <tspan x="53" y="325">Savings</tspan>
+                </text>
+                <text id="Linked-on:-00/00/00" font-family="Helvetica" font-size="28" font-weight="normal" line-spacing="47" letter-spacing="1" fill="#FFFFFF" fill-opacity="0.8">
+                    <tspan x="500.01709" y="420">Linked on: 07/04/21</tspan>
+                </text>
+                <path d="M634.222229,96.5555826 C634.222229,99.0000255 636.222229,101.000027 638.666673,101.000027 L656.44445,101.000027 C658.888894,101.000027 660.888895,99.0000255 660.888895,96.5555826 L660.888895,69.888916 L634.222229,69.888916 L634.222229,96.5555826 L634.222229,96.5555826 Z M663.111111,63.2222202 L655.333333,63.2222202 L653.111112,61 L642,61 L639.777778,63.2222202 L632,63.2222202 L632,67.6666603 L663.111111,67.6666603 L663.111111,63.2222202 L663.111111,63.2222202 Z" id="Shape" fill="#E6A8BF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

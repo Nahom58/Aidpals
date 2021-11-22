@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.user-image-heading,
+.defaultPic {
+  color: white;
+  background-color: #33ae44;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+  padding: 4%;
+  margin-top: -10%;
+}
+
+.members-amt {
+  margin-top: -10%;
+  margin-bottom: 20%;
+}
+
+.mb-3 {
+  border: none;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 50px;
+}
+
+/* p {
+      width: 150px;
+      height: 20px;
+      margin-left:20px;
+      text-align: left;
+      color: rgb(15, 15, 179);
+      display: inline-block;
+      font-size: 15px;
+      flex: 1;
+      font-weight: 600;
+  } */
+
+.money-amt-input {
+  background: #ffffff;
+  box-shadow: 0 5px 20px -8px rgba(0, 0, 0, 0.5);
+  border: none;
+  width: 20%;
+  text-align: center;
+}
+
+.FlexPayment {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+}
+
+#setup2 {
+  text-align: center;
+  border: 1px solid #160191;
+  padding: 5px 20px 5px 20px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 36px;
+  color: #160191;
+}
+
+.contribute-card {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  width: 100% !important;
+  padding-top: 50px;
+  bottom: 60px;
+  box-shadow: 0 -40px 30px -20px rgba(33, 38, 104, 0.2);
+}
+
+.contribute-card > p {
+  text-align: center;
+  /* change color and font size*/
+  color: rgb(15, 15, 179);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.secondSentence {
+  text-align: center;
+  /* change color and font size*/
+  color: rgb(15, 15, 179);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 0px 70px 10px 70px;
+  margin: 0%;
+}
+
+.defaultPic {
+  border-radius: 50%;
+  margin: 0px;
+}
+
+.Update {
+  color: white;
+  background-color: rgb(15, 15, 109);
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  border: 3px solid rgb(15, 15, 109);
+  padding: 3px 27px;
+  border-radius: 36px;
+  display: block;
+  margin: 90px;
+}
+
+.cashThingie {
+  display: inline-block;
+}
+
+.form {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 70%;
+}
+
+.form02 {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  width: 30%;
+}
+
+.content02 {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: white;
+  position: relative;
+  bottom: 30px;
+  display: flex;
+}
+
+.navBar {
+  padding-bottom: 7px;
+}
+
+.textBox {
+  /* padding: 20px 300px 20px 300px; */
+  margin: 20px 155px 1px 155px;
+}
+
+.Forms {
+  padding-left: 35%;
+  color: rgb(15, 15, 109);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Manrope", sans-serif;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.input {
+  position: relative;
+  top: 120px;
+}
+.small {
+  display: flex;
+  flex-direction: row;
+}
+#second {
+  margin-left: 25px;
+}

@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.titlesection {
+  color: white;
+  background-color: #33ae44;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: "Manrope";
+  border: 5px;
+  margin-bottom: 10px;
+  padding: 24px;
+}
+
+.title {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Manrope";
+}
+
+.switch {
+  margin-left: 20%;
+}
+
+.circlesection {
+  padding-top: 10px;
+}
+
+.upload-btn {
+  border: none;
+  border-radius: 2px;
+  background: rgb(243, 243, 243);
+  margin-bottom: 20px;
+  font: "Manrope";
+  border-radius: 7px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 7px;
+  padding-bottom: 18px;
+  width: 32px;
+  height: 18px;
+  margin-left: 32px;
+}
+
+.createcirclepage {
+  background: #ffffff;
+  margin-top: 40%;
+  background-origin: content-box;
+  background-position-y: center;
+  box-shadow: 0 -40px 30px -20px rgba(33, 38, 104, 0.2);
+  border-radius: 20px;
+  height: 70%;
+  background-position-y: bottom;
+}
+
+.App-logo {
+  width: 150px;
+  pointer-events: none;
+  margin-bottom: 20px;
+  margin-top: 150px;
+  margin-left: 25%;
+  align-items: center;
+}
+
+.account-creation,
+.Fine-Text {
+  font-family: "Manrope";
+  margin-top: 35px;
+  font-size: 12px;
+  color: #09004c;
+  letter-spacing: 0.1px;
+  margin-left: 20%;
+}
+
+.verify-label {
+  font-family: "Manrope";
+  margin-top: 35px;
+  font-size: 12px;
+  color: #09004c;
+  letter-spacing: 0.1px;
+  margin-left: 26%;
+}
+
+.Fine-Text {
+  font-family: "Manrope";
+}
+
+.birthdate {
+  font-family: "Manrope";
+  color: #09004c;
+  font-size: 12px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: -185px;
+}
+
+.img {
+  height: 1.5vmin;
+}
+
+.date {
+  font: "Manrope";
+  font-size: 13px;
+  border: none;
+  color: black;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+  width: 180px;
+  height: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+  outline: 0px;
+}
+.switch input {
+  opacity: 0;
+}
+
+.termchoice {
+  font-family: "Manrope";
+  font-size: 13px;
+  color: #160191;
+  border: none;
+  color: black;
+  background-color: rgb(245, 245, 245);
+  border-radius: 8px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+}
+
+.circlecardsection {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right: 5%;
+  size: fixed;
+  border-radius: 10px;
+  margin-left: 5%;
+  border: none;
+  font-size: 13px;
+  font: Avenir-Medium;
+  color: #160191;
+  background: #ffffff;
+  margin-top: 20px;
+  box-shadow: 0 5px 30px -8px rgba(0, 0, 0, 0.5);
+}
+
+.green-background-top {
+  color: white;
+  background-color: #33ae44;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: Avenir-Medium;
+  border: 5px;
+  margin-bottom: 10px;
+  padding: 24px;
+}
+
+.purple-background-top {
+  color: white;
+  background-color: #33ae44;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: Avenir-Medium;
+  border: 5px;
+  margin-bottom: 10px;
+  padding: 24px;
+  background-color: #000c66;
+  padding-bottom: 15%;
+  height: 25%;
+}
+
+.circle-white-card,
+.circlesection {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: white;
+  text-align: left;
+  position: relative;
+  padding-top: 50px;
+  bottom: 30px;
+  box-shadow: 0 -40px 30px -20px rgba(33, 38, 104, 0.2);
+}
+
+.circleSetInfoItem {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5px;
+}
+
+.circlelabel {
+  font-family: Avenir-Medium;
+  font-size: 13px;
+  color: #160191;
+  text-align: left;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+  padding-top: 5px;
+}
+
+.publicSwitch {
+  padding-bottom: 8px;
+}
+
+.publicSwitch > .circlelabel {
+  padding-top: 14px;
+}
+
+.createbutton {
+  background: #000c66;
+  font-family: Avenir-Medium;
+  font-size: 90%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+  border: none;
+  width: 180px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.circleName,
+.payAmount,
+.termchoice {
+  margin-left: 17%;
+  text-align: center;
+  font: Avenir;
+  font-size: 13px;
+  border: none;
+  color: #160191;
+  background-color: rgb(245, 245, 245);
+  width: 62px;
+  height: 28px;
+  border-radius: 7px;
+  padding-left: 5px;
+  padding-right: 0px;
+  margin-top: 150x;
+  margin-bottom: 10px;
+  outline: 0px;
+}
+
+.termchoice {
+  width: 80px;
+}
+
+.circleName {
+  margin-left: -5%;
+  width: 90%;
+  background: white;
+  font-family: Avenir-Medium;
+  font-size: 15px;
+  color: #160191;
+  text-align: center;
+}
+
+.prof-pic-entry,
+.circle-desc {
+  font: Avenir;
+  font-size: 11.5px;
+  border: none;
+  color: black;
+  background-color: rgb(245, 245, 245);
+  width: 80%;
+  height: 34px;
+  border-radius: 5px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.circle-desc {
+  height: 100px;
+}
+
+.password,
+.username,
+.verification-code,
+.birth-date {
+  font: Avenir;
+  font-size: 11.5px;
+  border: none;
+  color: black;
+  background-color: #e9e9e9;
+  width: 190px;
+  height: 34px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 26%;
+
+  outline: 0px;
+}
+
+.loginstatus {
+  color: red;
+  font: Avenir-Medium;
+  font-size: 11.5px;
+  margin-left: 28%;
+}
+
+.verification-code {
+  margin-top: 0;
+  text-align: center;
+}
+
+.phone-number {
+  font: Avenir-Medium;
+  font-size: 11.5px;
+  border: none;
+  color: black;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 190px;
+  height: 34px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 26%;
+
+  outline: 0px;
+
+  background-image: url("https://image.flaticon.com/icons/png/512/597/597177.png");
+  background-blend-mode: overlay;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position-y: 11px;
+  background-position-x: 6px;
+}
+
+.email {
+  font: Avenir;
+  font-size: 11.5px;
+  border: none;
+  color: black;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 26%;
+  outline: 0px;
+  width: 190px;
+  height: 34px;
+
+  background-image: url("https://image.flaticon.com/icons/png/512/561/561127.png");
+  background-blend-mode: overlay;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position-y: 11px;
+  background-position-x: 6px;
+}
+
+.button {
+  background: #11b427;
+  font-family: Avenir-Medium;
+  font-size: 15px;
+  color: #00047b;
+  text-align: center;
+  border-radius: 13px;
+  border: none;
+  margin-top: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-left: 22%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}

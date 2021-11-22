@@ -1,0 +1,103 @@
+{
+  "users": {
+    "user1": {
+      "name": "First Last",
+      "email": "email@email.com",
+      "phone": 1234567890,
+      "profilePicture": "base64-encoded image contents as string (under 10MB upload)",
+      "birthday": "2002-01-01",
+      "circles": {
+        "CircleID": true,
+        "CircleID2": true
+      },
+      "payments": {
+        "CardID": true,
+        "CardID2": true
+      },
+      "transactions": {
+        "transactionID": true,
+        "transactionID2": true
+      }
+    }
+  },
+  "circles": {
+    "CircleID": {
+      "name": "CircleName",
+      "public": true,
+      "description": "wordsasdfghjyrtertwfads",
+      "term": "monthly",
+      "subscriptionFee": 5,
+      "dateCreated": "2021-01-01",
+      "profilePicture": "base64-encoded image contents as string (under 10MB upload)",
+      "admins": {
+        "user1": true
+      },
+      "members": {
+        "user1": true,
+        "user2": true,
+        "user3": true
+      },
+      "transactions": {
+        "transactionID": true,
+        "transactionID2": true
+      },
+      "requests": {
+        "requestID": true,
+        "requestID2": true
+      }
+    },
+    "PrivateCircleID": {
+      "name": "CircleName",
+      "public": false,
+      "description": "wordsasdfghjyrtertwfads",
+      "term": "monthly",
+      "dateCreated": "2021-01-01",
+      "profilePicture": "base64-encoded image contents as string (under 10MB upload)",
+      "members": {
+        "user1": true,
+        "user2": true,
+        "user3": true
+      },
+      "transactions": {
+        "transactionID": true,
+        "transactionID2": true
+      },
+      "requests": {
+        "requestID": true,
+        "requestID2": true
+      },
+      "joinRequests": {
+        "user1": true,
+        "user2": true
+      }
+    }
+  },
+  "payments": {
+    "CardID": {
+      "number": 1234123412341234,
+      "expiration": "2023-01",
+      "nameOnCard": "First M. Last",
+      "securityCode": 123,
+      "zipCode": "11101"
+    }
+  },
+  "transactions": {
+    "transactionID": {
+      "circle": "circlename",
+      "user": "username",
+      "amount": 50,
+      "date": "2021-01-01",
+      "type": "Donation/Request/Subscription"
+    }
+  },
+  "requests": {
+    "requestID": {
+      "user": "username",
+      "approved": true,
+      "amount": 50,
+      "date": "2021-01-01",
+      "publicDescription": "wordsasdfghjkl",
+      "fullDescription": "morewordsasdfghjkl"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.CircleHomePageTop {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    background-color: #33AE44;
+}

@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.App {
+  font-family: "Manrope", sans-serif;
+}
+
+/* Fluent UI Search Bar Re-styling */
+
+.searchbar {
+  margin: 5%;
+}
+
+.ms-SearchBox {
+  background-color: #f3f3f3;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.ms-SearchBox-iconContainer {
+  color: #000c66 !important;
+}
+
+.ms-SearchBox::after {
+  border: 0px !important;
+  border-radius: 20px;
+}
+
+.is-active {
+  border: 0px !important;
+}
+
+/* MyCirclesPage Styling */
+
+.myCirclesTitle {
+  text-align: left;
+  color: #000c66;
+  font-size: 30px;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+/* HomePage Styling */
+
+.homePageTitle {
+  color: #000c66;
+  font-size: 2em;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+.green {
+  color: #33ae44;
+}
+
+.homePageHeading {
+  text-align: left;
+  color: #000c66;
+  font-size: 18px;
+  padding: 3% 5% 0% 5%;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.trending {
+  text-align: center !important;
+}
+
+.createCirclePrompt {
+  text-align: center;
+  display: block;
+}
+
+.createCirclePromptText {
+  text-align: center;
+  color: #000c66;
+  font-size: 10px;
+  margin-bottom: 1%;
+}
+
+.createCircleButton {
+  text-align: center;
+  color: #000c66;
+  background-color: white;
+  font-size: 10px;
+  font-weight: 500;
+  border-width: 1px;
+  border-color: #000c66;
+  padding: 3px 7px 3px 7px;
+  text-decoration: none;
+  display: inline;
+  border-radius: 12px;
+}
+
+/* ManageCircle Styling */
+.UpperManage {
+  background-color: #33ae44;
+  width: 100% !important;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 15%;
+  text-align: center;
+  color: white;
+}
+
+.updateCircleCard {
+  padding-top: 5%;
+}
+
+.openRequestsCardSection {
+  text-align: center;
+  margin-top: 8% !important;
+}
+
+.openRequestsCardSection > p {
+  margin-bottom: 0px;
+  padding: 2% 5%;
+  margin: 2% 20% 0% 20%;
+  background-color: #33ae44;
+  border-radius: 50px;
+  color: white;
+  font-weight: 900;
+}
+
+.backButton {
+  padding: 5px;
+  margin-top: 7% !important;
+  border-radius: 50px;
+  color: #000c66;
+  margin: 0 auto;
+  text-align: center !important;
+  display: inline-block;
+}
+
+.manageBackIcon {
+  background-color: #000c66;
+  color: white;
+  border-radius: 50px;
+  padding: 2px;
+  margin-right: 10px;
+}
+
+.LowerManage {
+  padding: 0 15px 0 15px;
+  background-color: white;
+  position: relative;
+  bottom: 80px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+/* AdminRequest Styling */
+
+.AdminRequestLower {
+  /* height: 390px; */
+  margin: 5% 0%;
+  padding: 0 15px 0 15px;
+  background-color: white;
+  position: relative;
+  bottom: 50px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.adminRequestContent {
+  margin: 0% 5%;
+}
+
+.unapprovedRequestsTitle {
+  padding: 3%;
+  margin: 0% 15%;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #33ae44;
+  background-color: white;
+  border-radius: 50px;
+}
+
+/* RequestDetails Styling */
+
+.LowerRequestDetails {
+  margin: 5% 0%;
+  padding: 0 15px 0 15px;
+  background-color: white;
+  position: relative;
+  bottom: 70px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.requestDetailsTitle {
+  text-align: center;
+  color: #000c66;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.amountDisplay {
+  margin: 20px 120px 1px 120px;
+  text-align: center;
+}
+
+.requestDetailsAmt > .form-control {
+  font-weight: 900;
+  font-size: 25px;
+  background-color: rgb(245, 245, 245);
+  border: 0px;
+}
+
+.requestDetails > .form-control {
+  font-size: 11px;
+  color: #000c66;
+  font-weight: 500;
+  background-color: rgb(245, 245, 245);
+  border: 0px;
+}
+
+.updateWidthRequest {
+  padding: 2% 10% !important;
+}
+
+.approveButton {
+  text-align: center;
+  color: #33ae44;
+  background-color: white;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-width: 1px;
+  border-color: #33ae44;
+  padding: 3px 15% 3px 15%;
+  text-decoration: none;
+  display: inline;
+  border-radius: 50px;
+  margin: 3% 0%;
+}
+
+.denyButton {
+  text-align: center;
+  color: red;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+  border-width: 1px;
+  border-color: red;
+  padding: 3px 20% 3px 20%;
+  text-decoration: none;
+  display: inline;
+  border-radius: 50px;
+}
+
+.requestDetailsButtons {
+  text-align: center;
+}
+
+/* JoinRequests Styling */
+
+.joinRequestIcons {
+  margin-right: 30px;
+  font-size: 22px;
+}
+
+.joinCheckIcon {
+  color: #33ae44;
+}
+
+.joinCloseIcon {
+  margin-left: 10px;
+  color: red;
+}
+
+.joinReq {
+  height: 70px !important;
+}

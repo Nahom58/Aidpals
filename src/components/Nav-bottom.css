@@ -1,0 +1,11 @@
+.Nav_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px 20px 30px !important;
+  background-color: white;
+  /* height: 60px; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
